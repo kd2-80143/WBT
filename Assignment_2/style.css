@@ -1,0 +1,21 @@
+.style{
+
+    border: solid;
+    /* border-color: black; */
+    border-width: 3px;
+    margin: 10px;
+   
+}
+.bstyle{
+    
+    border: solid;
+    /* border-color: black; */
+    border-width: 3px;
+    padding: 5px;
+    text-align: center;
+    margin: 50px;
+
+}
+#body{
+    background-color: antiquewhite;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <center>
+
+
+
+        <table style="width: 60%; height: 300px;" class="bstyle">
+            <tr>
+                <td colspan="4">
+                    <center>
+                        <h1>Calculator</h1>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>Enter Number 1 </td>
+                <td colspan="3"><input type="number" class="style" id="num1id"></td>
+
+            </tr>
+            <tr>
+                <td>Enter Number 2 </td>
+                <td colspan="3"><input type="number" class="style" id="num2id"></td>
+
+            </tr>
+            <tr>
+                <td>Result </td>
+                <td colspan="3"><input type="number" class="style" id="resid"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="button" value="Addition" class="style" onclick="add()">
+                    <input type="button" value="Substraction" class="style" onclick="sub()">
+                    <input type="button" value="Multiplication" class="style" onclick="mult()">
+                    <input type="button" value="Division" class="style" onclick="div()">
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <script>
+        function add() {
+            debugger;
+            var refTonum1 = document.getElementById("num1id");
+            var refTonum2 = document.getElementById("num2id");
+            var refTores = document.getElementById("resid");
+
+            refTores.value = parseInt(refTonum1.value) + parseInt(refTonum2.value);
+
+
+        }
+        function sub() {
+            debugger;
+            var refTonum1 = document.getElementById("num1id");
+            var refTonum2 = document.getElementById("num2id");
+            var refTores = document.getElementById("resid");
+
+            refTores.value = parseInt(refTonum1.value) - parseInt(refTonum2.value);
+
+
+
+        }
+        function mult() {
+            debugger;
+            var refTonum1 = document.getElementById("num1id");
+            var refTonum2 = document.getElementById("num2id");
+            var refTores = document.getElementById("resid");
+
+            refTores.value = refTonum1.value * refTonum2.value;
+
+
+
+        }
+        function div() {
+            debugger;
+            var refTonum1 = document.getElementById("num1id");
+            var refTonum2 = document.getElementById("num2id");
+            var refTores = document.getElementById("resid");
+
+            refTores.value = refTonum1.value / refTonum2.value;
+
+
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
