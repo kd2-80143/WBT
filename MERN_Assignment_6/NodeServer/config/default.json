@@ -1,0 +1,7 @@
+{
+    "server" : "localhost",
+    "database" : "kdac",
+    "uname" : "root",
+    "passwd" : "manager",
+    "port" : 5001
+}
